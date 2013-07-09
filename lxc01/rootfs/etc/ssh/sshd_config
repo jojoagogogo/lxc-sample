@@ -1,0 +1,12 @@
+Port 22
+#AddressFamily any
+ListenAddress 0.0.0.0
+#ListenAddress ::
+SyslogFacility AUTHPRIV
+PermitRootLogin yes
+PasswordAuthentication yes
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding yes
+Subsystem	sftp	/usr/libexec/openssh/sftp-server
+
