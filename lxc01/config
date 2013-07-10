@@ -11,7 +11,7 @@ lxc.network.flags = up
 
 lxc.cgroup.cpuset.cpus = 0
 
-lxc.mount.entry=/dev dev none ro,bind 0 0
+lxc.mount.entry=/dev dev none rw,bind 0 0
 lxc.mount.entry=/lib lib none ro,bind 0 0
 lxc.mount.entry=/bin bin none ro,bind 0 0
 lxc.mount.entry=/usr usr none ro,bind 0 0
