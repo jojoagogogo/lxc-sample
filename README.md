@@ -16,7 +16,7 @@ gpgcheck=1
 " > /etc/yum.repos.d/dag.repo
 </pre>
   * yum install bridge-utils
-  * yum -y install lxc-devel lxc-doc lxc-libs lxc-templates lxc
+  * yum install --nogpgcheck lxc-devel lxc-doc lxc-libs lxc libcgroup
 
 ### 2. host bridge network
 
@@ -41,6 +41,8 @@ BRIDGE=br0
 <pre>
 echo "cgroup      /cgroup          cgroup  defaults        0 0" >> /etc/fstab
 </pre>
+  * chkconfig cgconfig off
+  * service cgconfig stop
   * mount -a
 
 ### 4. git clone https://github.com/jojoagogogo/lxc-sample.git
