@@ -20,7 +20,9 @@ lxc.mount.entry=/lib64 lib64 none ro,bind 0 0
 
 lxc.mount.entry=proc /var/lib/lxc/lxc01/rootfs/proc proc nodev,noexec,nosuid 0 0
 lxc.mount.entry=sys /var/lib/lxc/lxc01/rootfs/sys sysfs nodev,noexec,nosuid 0 0
-
 lxc.mount.entry=tmpfs var/run/lxc tmpfs mode=0644 0 0
+
+#lxc.mount.entry=/usr/share/lxc/templates/lxc-sshd sbin/init none bind 0 0
+#lxc.mount.entry=/root root none ro,bind 0 0
 
 
