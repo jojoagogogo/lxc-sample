@@ -39,10 +39,5 @@ rm -rf /tmp/.X*-unix /tmp/.ICE-unix /tmp/.font-unix /tmp/hsperfdata_* \
        /tmp/scrollkeeper-*  /tmp/ssh-* \
        /dev/.in_sysinit
 
-# Make ICE directory
-#mkdir -m 1777 -p /tmp/.ICE-unix >/dev/null 2>&1
-#chown root:root /tmp/.ICE-unix
-#[ -n "$SELINUX_STATE" ] && restorecon /tmp/.ICE-unix >/dev/null 2>&1
-
 #[ -f /var/log/dmesg ] && mv -f /var/log/dmesg /var/log/dmesg.old
 #dmesg -s 131072 > /var/log/dmesg
