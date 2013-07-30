@@ -1,0 +1,24 @@
+ssh_host_dsa_key
+ssh_host_dsa_key.pub
+ssh_host_key
+ssh_host_key.pub
+ssh_host_rsa_key
+ssh_host_rsa_key.pub
+iptables
+lastlog
+wtmp
+sshd.pid
+utmp
+
+#       lxc01/rootfs/etc/ssh/ssh_host_dsa_key
+#       lxc01/rootfs/etc/ssh/ssh_host_dsa_key.pub
+#       lxc01/rootfs/etc/ssh/ssh_host_key
+#       lxc01/rootfs/etc/ssh/ssh_host_key.pub
+#       lxc01/rootfs/etc/ssh/ssh_host_rsa_key
+#       lxc01/rootfs/etc/ssh/ssh_host_rsa_key.pub
+#       lxc01/rootfs/var/lock/subsys/iptables
+#       lxc01/rootfs/var/log/lastlog
+#       lxc01/rootfs/var/log/wtmp
+#       lxc01/rootfs/var/run/sshd.pid
+#       lxc01/rootfs/var/run/utmp
+
