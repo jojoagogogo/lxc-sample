@@ -5,17 +5,4 @@
 # want to do the full Sys V style init stuff.
 
 touch /var/lock/subsys/local
-## clean!!
-#/bin/rm -rf /tmp/* /var/tmp/*
-#/bin/rm -rf /root/.bash_history
-
-#/usr/bin/cpupower frequency-set -g performance >/dev/null 2>&1
-
-# for unbound admin
-#/bin/bash /usr/local/libexec/run.sh
-
-#iifup br0:0
-#ifup br1:0
-#sleep 10
-#/sbin/service unbound restart
 
