@@ -2,6 +2,8 @@ lxc.utsname = lxc01
 lxc.pts = 1024
 lxc.rootfs = /var/lib/lxc/lxc01/rootfs
 
+lxc.tty = 2
+
 lxc.network.type = veth  
 lxc.network.name = eth0  
 lxc.network.link = br0
