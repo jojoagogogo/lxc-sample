@@ -9,6 +9,11 @@ lastlog
 wtmp
 sshd.pid
 utmp
+adjtime
+.bash_history
+random-seed
+
+lxc01/rootfs/var/lock/subsys/ipvsadm
 
 #       lxc01/rootfs/etc/ssh/ssh_host_dsa_key
 #       lxc01/rootfs/etc/ssh/ssh_host_dsa_key.pub
